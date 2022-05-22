@@ -26,7 +26,7 @@ class Data(db.Model):
         self.phone=phone
         self.email=email
         self.address=address
-@app.route('/admin')
+@app.route('/')
 def index():
     #data
     year=np.array([2018,2019,2020,2021,2022])
